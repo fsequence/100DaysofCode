@@ -1,8 +1,68 @@
 
+Check out this code in action on replit.com: 
+
+https://replit.com/@FrankSustaita/treasure-island-start?v=1#main.py
+
+Note: Click the 'Run' button.
+
+
+-------------------------------------------------------------
+                100 Days of Code - Day 3
+-------------------------------------------------------------
 
 
 
+#Write your code below this line 👇
 
+print('''
+      ___________________
+     |,-----.,-----.,---.\\
+     ||     ||     ||    \\
+     |`-----'|-----||-----\\`----.
+     [       |    -||-   _|    (|
+     [  ,--. |_____||___/.--.   |
+     =-(( `))-----------(( `))-==
+ School `--'      is     `--' Cool!!
+''')
+print("School is Cool.")
+print("But beware of fools.") 
+print("Get to school to learn useful tools.")
+print("Or you might end up a useless fool.\n")
+#https://www.draw.io/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Treasure%20Island%20Conditional.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1oDe4ehjWZipYRsVfeAx2HyB7LCQ8_Fvi%26export%3Ddownload
+
+#Write your code below this line 👇
+
+School_is_Cool = True
+
+if School_is_Cool:
+    A = input('''The school bus will be at the bus stop in 5 minutes? 
+Are you going to walk across the street to wait for it? 
+Yes or No ''')
+    if A.lower() == "yes":
+        print("\nWise Decision. Stay Focused.\n")
+        print('''Tony from down the street just texted you that he 
+isn\'t going to school today. Tricked his mom into 
+thinking he is sick.\n''')
+        B = input("Do you wanna play video games all day? Yes or No ")
+        if B.lower() == "no":
+            print("\nYou are almost at the bus stop but remember you "
+                  "can't relax the coast is not clear yet.\n")
+            print('''Now that you are about your school grades girls are 
+starting to notice you. Susie from around the corner didn't do her 
+homework last night but she knows you for sure did. She sits next to 
+you and asks if you can get the late bus so she could copy your 
+homework. \n\nWell, are you going to be punctual or''')
+            C = input("are you going to take the late bus? punctual or late bus\n")
+            if C.lower() == "punctual":
+                print('''\nLook at chu, well done, you\'re off to a good start. 
+Remember, showing up is half the battle. You win!!''')
+            else:
+                print('''\nDon\'t worry about it. We all make mistakes. Just 
+remember, from now on, school comes first. Schools out kid.''')
+        else:
+            print("Schools out, you lose.")
+    else:
+        print("Schools out, you lose.")
 
 
 
